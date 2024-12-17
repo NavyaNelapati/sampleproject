@@ -1,0 +1,132 @@
+{
+    "createbooking1": {
+        "firstname": "Christine",
+        "lastname": "Davis",
+        "totalprice": 1032,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-10-16",
+            "checkout": "2024-10-20"
+        },
+        "additionalneeds": "Card."
+    },
+    "createbooking2": {
+        "firstname": "Willie",
+        "lastname": "Alvarado",
+        "totalprice": 8357,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-11-02",
+            "checkout": "2024-11-05"
+        },
+        "additionalneeds": "Be speech."
+    },
+    "invalidbooking1": {
+        "firstname": "Cynthia",
+        "lastname": "Thomas",
+        "totalprice": 4805,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-10-07",
+            "checkout": "2024-09-27"
+        },
+        "additionalneeds": "Reveal."
+    },
+    "missingfields1": {
+        "firstname": "Matthew",
+        "lastname": "Dean",
+        "totalprice": 1402,
+        "depositpaid": true,
+        "additionalneeds": "Responsibility."
+    },
+    "missingfields2": {
+        "firstname": "Matthew",
+        "lastname": "Dean",
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-09-28",
+            "checkout": "2024-10-06"
+        },
+        "additionalneeds": "Responsibility."
+    },
+    "updatebooking1": {
+        "firstname": "Melissa",
+        "lastname": "Allen",
+        "totalprice": 5476,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-09-29",
+            "checkout": "2024-10-01"
+        },
+        "additionalneeds": "Need wife."
+    },
+    "updatebooking2": {
+        "firstname": "Teresa",
+        "lastname": "Robertson",
+        "totalprice": 2479,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-10-13",
+            "checkout": "2024-10-19"
+        },
+        "additionalneeds": "Image space."
+    },
+    "expiredbooking1": {
+        "firstname": "Chad",
+        "lastname": "Warren",
+        "totalprice": 4654,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-10-02",
+            "checkout": "2024-10-04"
+        },
+        "additionalneeds": "Draw home each."
+    },
+    "partialUpdatebooking1": {
+        "firstname": "Chad",
+        "additionalneeds": "Be near happy."
+    },
+    "partialUpdatebooking2": {
+        "lastname": "Soto",
+        "additionalneeds": "Student avoid."
+    },
+    "invalidbookingid": 999999999,
+    "updatebookingid": 4651,
+    "expiredbookingid": 4664,
+    "readbookingid": 4657,
+    "deletebookingid1": 4654,
+    "deletebookingid2": 4660,
+    "readbookingresponse": {
+        "firstname": "Sara",
+        "lastname": "Hall",
+        "totalprice": 2201,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-09-24",
+            "checkout": "2024-09-28"
+        },
+        "additionalneeds": "Hear."
+    },
+    "filters": [
+        {
+            "firstname": "Heather"
+        },
+        {
+            "lastname": "Wright"
+        },
+        {
+            "checkin": "2024-11-11"
+        },
+        {
+            "checkout": "2024-10-05"
+        },
+        {
+            "firstname": "Steven",
+            "lastname": "Wright"
+        },
+        {
+            "checkin": "2024-10-04",
+            "checkout": "2024-10-05"
+        }
+    ]
+}

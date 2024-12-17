@@ -1,0 +1,31 @@
+[project]
+name = "bdd-testing"
+dependencies = [
+  "pytest",
+  "pytest-bdd",
+  "requests",
+  "Faker",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Navya Nelapati", email = "navyanelapati07@gmail.com"},
+]
+description = "Sample Restful booker api testing"
+readme = "README.md"
+keywords = ["bdd", "api"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+skip-string-normalization = true
+
+[tool.flake8]
+max-line-length = 88
+ignore = ["E203", "W503"]
+
+[tool.isort]
+profile = "black"
